@@ -5,12 +5,12 @@
 
 // public class FindConstantFromJSON {
 
-//     // Function to decode Y from given base
+
 //     public static long decodeY(int base, String value) {
 //         return Long.parseLong(value, base);
 //     }
 
-//     // Determinant for solving equations using Cramer's Rule
+
 //     public static double determinant(double[][] m) {
 //         return m[0][0] * (m[1][1] * m[2][2] - m[1][2] * m[2][1])
 //              - m[0][1] * (m[1][0] * m[2][2] - m[1][2] * m[2][0])
@@ -24,7 +24,7 @@
 //         }
 
 //         try {
-//             // Step 1: Read JSON file
+//             
 //             JSONParser parser = new JSONParser();
 //             JSONObject jsonObject = (JSONObject) parser.parse(new FileReader(args[0]));
 
@@ -32,7 +32,7 @@
 //             long n = (long) keysObj.get("n");
 //             long k = (long) keysObj.get("k");
 
-//             // Step 2: Decode first 'k' points
+//            
 //             double[][] points = new double[(int) k][2];
 //             int idx = 0;
 
@@ -52,7 +52,7 @@
 //                 }
 //             }
 
-//             // Step 3: Only works for degree 2 polynomial when k=3
+//            
 //             if (k != 3) {
 //                 System.out.println("This example code currently supports only k=3 (quadratic).");
 //                 return;
@@ -91,7 +91,7 @@
 //             };
 //             double c = determinant(matC) / det;
 
-//             // Step 4: Print constant C
+//            
 //             System.out.println(c);
 
 //         } catch (Exception e) {
